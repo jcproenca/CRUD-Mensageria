@@ -1,0 +1,9 @@
+[source,http,options="nowrap"]
+----
+PUT /api/juridicas/1?_csrf=KBQ6G0-B2dW7SvDU0q1u1ecE2EqzXII6BveoJzgjIp3aAgQBGXdYLSm3v-eWfJXh44Basdcx9SiAP-AXZMHMFQ1FF_7jMDVl HTTP/1.1
+Content-Type: application/json;charset=UTF-8
+Content-Length: 239
+Host: localhost:8080
+
+{"idade":5,"nome":"Empresa Exemplo Ltda","endereco":{"cep":"01310-100","rua":"Avenida Paulista","bairro":"Bela Vista","complemento":"Sala 101","estado":"SP","cidade":"São Paulo","numero":"1000"},"cnpj":"12345678000199","genero":"Empresa"}
+----

@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/api/fisicas/1' -i -X DELETE \
+    -d '_csrf=GxUUgt0fb0L12Fd4PsaZQiJu8b_75BQBVeKmnngeN6wQjpt4f3Aguut8XXLY6jUZDeutehQL3N3O03YsNtKUr0EvA5Upuf4b'
+----

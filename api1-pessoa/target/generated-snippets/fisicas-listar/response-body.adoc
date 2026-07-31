@@ -1,0 +1,4 @@
+[source,json,options="nowrap"]
+----
+[{"id":1,"nome":"João da Silva","genero":"Masculino","idade":30,"cpf":"12345678901","endereco":{"rua":"Rua das Flores","numero":"123","complemento":"Apto 45","bairro":"Centro","cidade":"São Paulo","estado":"SP","cep":"01001-000"}}]
+----

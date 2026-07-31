@@ -1,0 +1,52 @@
+|===
+|Path|Type|Description
+
+|`+[].id+`
+|`+Number+`
+|Identificador único
+
+|`+[].nome+`
+|`+String+`
+|Nome completo
+
+|`+[].genero+`
+|`+String+`
+|Gênero
+
+|`+[].idade+`
+|`+Number+`
+|Idade em anos
+
+|`+[].cpf+`
+|`+String+`
+|CPF (11 dígitos, sem formatação)
+
+|`+[].endereco.rua+`
+|`+String+`
+|Rua
+
+|`+[].endereco.numero+`
+|`+String+`
+|Número
+
+|`+[].endereco.complemento+`
+|`+String+`
+|Complemento (opcional)
+
+|`+[].endereco.bairro+`
+|`+String+`
+|Bairro
+
+|`+[].endereco.cidade+`
+|`+String+`
+|Cidade
+
+|`+[].endereco.estado+`
+|`+String+`
+|UF (2 letras)
+
+|`+[].endereco.cep+`
+|`+String+`
+|CEP
+
+|===

@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ http --form DELETE 'http://localhost:8080/api/juridicas/1' \
+    '_csrf=rFPKmm1CMy_89a7HFzdapOgTjvVbCZWXRvQ5o5cn-eIdUaginWD_-Q92VhbRwc3wcxpunNElo5dtOPO6J5BakaEUydMkYslG'
+----

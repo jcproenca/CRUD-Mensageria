@@ -1,0 +1,9 @@
+[source,http,options="nowrap"]
+----
+DELETE /api/fisicas/1 HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Host: localhost:8080
+Content-Length: 102
+
+_csrf=GxUUgt0fb0L12Fd4PsaZQiJu8b_75BQBVeKmnngeN6wQjpt4f3Aguut8XXLY6jUZDeutehQL3N3O03YsNtKUr0EvA5Upuf4b
+----

@@ -1,0 +1,4 @@
+[source,json,options="nowrap"]
+----
+{"idade":5,"nome":"Empresa Exemplo Ltda","endereco":{"cep":"01310-100","rua":"Avenida Paulista","bairro":"Bela Vista","complemento":"Sala 101","estado":"SP","cidade":"São Paulo","numero":"1000"},"cnpj":"12345678000199","genero":"Empresa"}
+----

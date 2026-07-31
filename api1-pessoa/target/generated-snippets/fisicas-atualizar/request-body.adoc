@@ -1,0 +1,4 @@
+[source,json,options="nowrap"]
+----
+{"idade":30,"nome":"João da Silva","endereco":{"cep":"01001-000","rua":"Rua das Flores","bairro":"Centro","complemento":"Apto 45","estado":"SP","cidade":"São Paulo","numero":"123"},"cpf":"12345678901","genero":"Masculino"}
+----

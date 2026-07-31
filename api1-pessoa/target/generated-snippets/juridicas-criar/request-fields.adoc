@@ -1,0 +1,48 @@
+|===
+|Path|Type|Description
+
+|`+nome+`
+|`+String+`
+|Razão social / nome
+
+|`+genero+`
+|`+String+`
+|Gênero / tipo
+
+|`+idade+`
+|`+Number+`
+|Tempo de existência em anos
+
+|`+cnpj+`
+|`+String+`
+|CNPJ (14 dígitos, sem formatação)
+
+|`+endereco.rua+`
+|`+String+`
+|Rua
+
+|`+endereco.numero+`
+|`+String+`
+|Número
+
+|`+endereco.complemento+`
+|`+String+`
+|Complemento
+
+|`+endereco.bairro+`
+|`+String+`
+|Bairro
+
+|`+endereco.cidade+`
+|`+String+`
+|Cidade
+
+|`+endereco.estado+`
+|`+String+`
+|UF (2 letras)
+
+|`+endereco.cep+`
+|`+String+`
+|CEP
+
+|===
