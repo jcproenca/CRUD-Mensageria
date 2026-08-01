@@ -68,6 +68,16 @@ mvn spring-boot:run
 
 ---
 
+### Testes em ambos repositórios
+
+```bash
+cd api1-pessoa // (ou api2-consumer)
+mvn test
+```
+
+> Roda os testes inseridos na pasta test do projeto.
+
+
 ## Autenticação (API 1)
 
 A API 1 usa **HTTP Basic Authentication**.
