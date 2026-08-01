@@ -23,26 +23,25 @@
     </properties>
 
     <dependencies>
-        <!-- Web (necessário para expor o endpoint /docs e para o contexto Spring MVC) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Mensageria (RabbitMQ) -->
+        <!-- mensageria Rabbit-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
 
-        <!-- Lombok -->
+        <!-- lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
 
-        <!-- Testes -->
+        <!-- testes -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -54,7 +53,7 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Documentação de código (Spring REST Docs) -->
+        <!-- documentação  -->
         <dependency>
             <groupId>org.springframework.restdocs</groupId>
             <artifactId>spring-restdocs-mockmvc</artifactId>
@@ -77,7 +76,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Gera a documentação HTML a partir dos snippets criados pelos testes -->
             <plugin>
                 <groupId>org.asciidoctor</groupId>
                 <artifactId>asciidoctor-maven-plugin</artifactId>

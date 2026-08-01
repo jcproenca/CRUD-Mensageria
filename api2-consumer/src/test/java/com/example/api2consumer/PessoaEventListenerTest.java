@@ -2,13 +2,9 @@ package com.example.api2consumer;
 
 import com.example.api2consumer.listener.PessoaEventListener;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.extension.ExtendWith;
-import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import static org.assertj.core.api.Assertions.assertThatCode;
 
-
-@ExtendWith(SpringExtension.class)
 class PessoaEventListenerTest {
 
     private final PessoaEventListener listener = new PessoaEventListener();

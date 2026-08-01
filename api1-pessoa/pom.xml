@@ -23,13 +23,12 @@
     </properties>
 
     <dependencies>
-        <!-- Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Persistência -->
+        <!-- bd -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -40,32 +39,32 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Validação -->
+        <!-- jakarta -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
-        <!-- Segurança -->
+        <!-- segurança -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
-        <!-- Mensageria (RabbitMQ) -->
+        <!-- mensageria (RabbitMQ) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>
         </dependency>
 
-        <!-- Lombok -->
+        <!-- lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
         </dependency>
 
-        <!-- Testes -->
+        <!-- testes -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -82,14 +81,13 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- H2 – banco em memória exclusivo para testes (substitui MySQL) -->
+        <!-- H2 p/ testes-->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>test</scope>
         </dependency>
 
-        <!-- Documentação de código (Spring REST Docs) -->
         <dependency>
             <groupId>org.springframework.restdocs</groupId>
             <artifactId>spring-restdocs-mockmvc</artifactId>
@@ -112,7 +110,6 @@
                 </configuration>
             </plugin>
 
-            <!-- Gera a documentação HTML a partir dos snippets criados pelos testes (Spring REST Docs) -->
             <plugin>
                 <groupId>org.asciidoctor</groupId>
                 <artifactId>asciidoctor-maven-plugin</artifactId>
@@ -153,7 +150,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Copia o HTML gerado para dentro do jar, disponível em /docs -->
+            
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-resources-plugin</artifactId>

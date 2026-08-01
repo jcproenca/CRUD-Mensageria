@@ -1,6 +1,0 @@
-[source,bash]
-----
-$ curl 'http://localhost:8080/api/juridicas?_csrf=HN0JhaeLDJgHotljRLgmnzS3LWiZc1Sd3Dy6QNKiDHrtp71yLu89t8S-Oa0qx7hRfZUS-wePAFCuFjCw7AWOdeuWbhjckoRB' -i -X POST \
-    -H 'Content-Type: application/json;charset=UTF-8' \
-    -d '{"idade":5,"nome":"Empresa Exemplo Ltda","endereco":{"cep":"01310-100","rua":"Avenida Paulista","bairro":"Bela Vista","complemento":"Sala 101","estado":"SP","cidade":"São Paulo","numero":"1000"},"cnpj":"12345678000199","genero":"Empresa"}'
-----

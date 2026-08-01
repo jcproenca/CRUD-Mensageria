@@ -1,9 +1,0 @@
-[source,http,options="nowrap"]
-----
-POST /api/fisicas?_csrf=QXKlPZOzzYP9uSAUd8zHrS9jj0lgLelJ_3WiFTM6omZMiTPFeRScCveB_-fQgBUiFOHzyR0FoitVS4tkzRObd1UOxFcqulCj HTTP/1.1
-Content-Type: application/json;charset=UTF-8
-Content-Length: 224
-Host: localhost:8080
-
-{"idade":30,"nome":"João da Silva","endereco":{"cep":"01001-000","rua":"Rua das Flores","bairro":"Centro","complemento":"Apto 45","estado":"SP","cidade":"São Paulo","numero":"123"},"cpf":"12345678901","genero":"Masculino"}
-----
